@@ -18,11 +18,21 @@ int main(void)
       cout << "相等" << endl;
   else
   {
+      //改写程序代码写入下方
       if(line1 > line2)
-        cout << line1 << endl;
+          cout << line1 << endl;
       else
-        cout << line2 << endl;
+          cout << line2 << endl;
   }
 
   return 0;
 }
+
+
+//改写上述程序，添加进else
+/*
+    if(line1.size() > line2.size())
+        cout << line1 << endl;
+    else
+        cout << line2 << endl;
+*/

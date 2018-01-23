@@ -15,7 +15,7 @@ int main(void)
       if(!ispunct(c)) 
         line += c;
   }
-
+  //打印字符串
   cout << line << endl;
 
   return 0;
